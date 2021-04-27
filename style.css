@@ -1,0 +1,13 @@
+:root {
+  --primary-color: #000066;
+  --TITLE: 2.4rem;
+  --text: 1.8rem;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
