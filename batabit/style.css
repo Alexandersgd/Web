@@ -27,7 +27,7 @@ html {
   font-family: "DM Sans", sans-serif;
 }
 header {
-  position: absolute;
+  position: relative;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -93,4 +93,32 @@ header img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+/*Main*/
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+main .main-background-img {
+  width: 200px;
+  height: 200px;
+  margin: 40px auto;
+  background-image: url(/batabit/assets/img/Bitcoin.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .main-container-text h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 26px;
+  color: var(--warm-black);
+  margin-bottom: 24px;
+}
+main .main-container-text p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 18px;
+  color: #757575;
 }
