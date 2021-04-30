@@ -186,6 +186,7 @@ main .table-container h2 {
 }
 main .details-container {
   padding-top: 64px;
+  padding-bottom: 46px;
   background-color: var(--black);
   color: var(--just-white);
 }
@@ -230,7 +231,6 @@ main .details-list-container p {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 18px;
-  text-align: justify;
   color: #808080;
 }
 main .details-list-container span {
@@ -254,4 +254,20 @@ main .details-list-container #dollar-icon {
 }
 main .details-list-container #check-icon {
   background-image: url(/batabit/assets/icons/check-circle.svg);
+}
+main .main-img-container {
+  width: 100%;
+  min-width: 320px;
+  height: 50vh;
+  background-image: url(/batabit/assets/img/bitcoinbaby2x.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .main-img-container h2 {
+  margin-top: 64px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 26px;
+  color: var(--just-white);
 }
