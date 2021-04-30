@@ -122,3 +122,52 @@ main .main-container-text p {
   line-height: 18px;
   color: #757575;
 }
+/*Table*/
+main .table-container {
+  margin-top: 50px;
+}
+main .main-currency-table {
+  width: 70%;
+  min-width: 200px;
+  max-height: 500px;
+  margin: 0 auto;
+}
+main .table-container h2 {
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 23px;
+  color: #ff9536;
+  text-align: left;
+}
+.main-currency-table .left {
+  padding: 10px 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 19px;
+  letter-spacing: -0.02rem;
+  color: #b5b0ac;
+}
+.main-currency-table .right {
+  padding: 11px 12px;
+  font-family: "Inter", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 17px;
+  align-self: center;
+  color: #757575;
+}
+.main-currency-table span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.main-currency-table .up {
+  background-image: url(/batabit/assets/icons/trending-up.svg);
+}
+.main-currency-table .down {
+  background-image: url(/batabit/assets/icons/trending-down.svg);
+}
