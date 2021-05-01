@@ -271,3 +271,26 @@ main .main-img-container h2 {
   line-height: 26px;
   color: var(--just-white);
 }
+main .main-plans {
+  margin: 64px auto;
+}
+main .main-plans-titles {
+  width: 90%;
+  min-width: 290px;
+  max-width: 400px;
+  margin: 0 15px;
+}
+main .main-plans-titles h3 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 26px;
+  color: var(--warm-black);
+}
+main .main-plans-titles p {
+  margin-top: 24px;
+  margin-bottom: 34px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 18px;
+  color: #757575;
+}
