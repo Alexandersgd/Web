@@ -185,10 +185,19 @@ main .table-container h2 {
   border-radius: 8px;
 }
 main .details-container {
+  position: relative;
   padding-top: 64px;
   padding-bottom: 46px;
   background-color: var(--black);
   color: var(--just-white);
+}
+main .details-container .details-icon {
+  position: absolute;
+  left: calc(50% - 20px);
+  top: -10px;
+  width: 41px;
+  height: 24px;
+  background-image: url(/batabit/assets/icons/batata.svg);
 }
 main .details-container .details-title {
   width: 290px;
