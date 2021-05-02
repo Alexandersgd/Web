@@ -272,7 +272,7 @@ main .main-img-container h2 {
   color: var(--just-white);
 }
 main .main-plans {
-  margin: 64px auto;
+  margin: 64px auto 34px;
 }
 main .main-plans-titles {
   width: 90%;
@@ -288,18 +288,26 @@ main .main-plans-titles h3 {
 }
 main .main-plans-titles p {
   margin-top: 24px;
-  margin-bottom: 34px;
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 18px;
   color: #757575;
 }
+main .plan-container-slider {
+  display: flex;
+  height: 316px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
 main .plan-container-card {
   position: relative;
+  scroll-snap-align: center;
   width: 70%;
+  height: 250px;
   min-width: 190px;
-  max-width: 400px;
-  margin: 0 auto;
+  max-width: 300px;
+  margin: 50px 10px 0;
   padding: 10px;
   box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
   border-radius: 8px;
@@ -307,6 +315,7 @@ main .plan-container-card {
 main .plan-container-card .plan-card_recommend {
   position: absolute;
   width: 120px;
+  height: 30px;
   top: -15px;
   left: calc(50% - 60px);
   padding: 8px;
@@ -317,6 +326,12 @@ main .plan-container-card .plan-card_recommend {
   font-size: 1.2rem;
   font-weight: bold;
   line-height: 15px;
+}
+#plan-basic {
+  color: var(--warm-black);
+}
+#plan-pro {
+  background-color: var(--warm-black);
 }
 main .plan-container-card .plan-card-title {
   margin-top: 16px;
