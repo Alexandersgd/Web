@@ -121,16 +121,26 @@ main .main-container-text p {
   font-weight: 500;
   line-height: 18px;
   color: #757575;
+  margin-bottom: 50px;
 }
 /*Table*/
 main .table-container {
-  margin-top: 50px;
+  display: flex;
+  margin: 0 50px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+main .main-table {
+  width: 100%;
 }
 main .main-currency-table {
   width: 70%;
+  scroll-snap-align: center;
   min-width: 200px;
+  max-width: 300px;
   max-height: 500px;
-  margin: 0 auto;
+  margin: 0 20px;
 }
 main .table-container h2 {
   font-weight: bold;
@@ -138,6 +148,9 @@ main .table-container h2 {
   line-height: 23px;
   color: #ff9536;
   text-align: left;
+}
+main .table-container #commision-title {
+  color: var(--secondary-blue);
 }
 .main-currency-table .left {
   padding: 10px 12px;
@@ -183,6 +196,9 @@ main .table-container h2 {
   padding: 8px;
   background: var(--soft-orange);
   border-radius: 8px;
+}
+.main-currency-table #commision-date {
+  background-color: var(--soft-blue);
 }
 main .details-container {
   position: relative;
@@ -304,6 +320,7 @@ main .main-plans-titles p {
 }
 main .plan-container-slider {
   display: flex;
+  margin: 0 30px;
   height: 316px;
   overflow-x: scroll;
   overscroll-behavior-x: contain;
@@ -337,7 +354,7 @@ main .plan-container-card .plan-card_recommend {
   line-height: 15px;
 }
 #plan-basic {
-  color: var(--warm-black);
+  background-color: var(--secondary-blue);
 }
 #plan-pro {
   background-color: var(--warm-black);
